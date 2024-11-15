@@ -1,6 +1,10 @@
+html{
+    background-color: lightcoral;
+}
+
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 3px;
+    padding: 3px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,3 +17,163 @@
     clear: both;
     display: block;
     content: "";
+}
+
+h1{
+    background-color: red;
+    color: black;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+p{
+    background-color: lightcoral;
+    color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    padding-left: 13px;
+    width: 40%;
+    line-height: 25px;
+    min-height: 25px;
+}
+
+#acc{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+    line-height: 25px;
+    min-height: 25px;
+}
+    
+    #accpearl{
+        border-style: solid;
+        border-radius: 25px;
+    }
+
+    #accyamaha{
+        border-style: solid;
+        border-radius: 25px;
+    }
+
+#ele{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#hyb{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#caj{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#fivea{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#sevena{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#bru{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#sna{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#basd{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#tom{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#cra{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#rid{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#hic{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#spl{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#hip{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#basp{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#sto{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+#pad{
+    background-color: brown;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
