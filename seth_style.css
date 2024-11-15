@@ -4,8 +4,8 @@ html{
 
 *{
     margin: 3px;
-    padding: 3px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 #wrapper{
@@ -26,18 +26,7 @@ h1{
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
-}
-
-p{
-    background-color: lightcoral;
-    color: black;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 15px;
-    padding-left: 13px;
-    width: 40%;
-    line-height: 25px;
-    min-height: 25px;
+    padding: 3px;
 }
 
 #acc{
@@ -47,17 +36,93 @@ p{
     border-width: 2px;
     line-height: 25px;
     min-height: 25px;
+    padding: 3px;
 }
-    
-    #accpearl{
+
+    #acc_pearl{
+        float: left;
+        background-color: lightcoral;
+        color: black;
+        border-width: 2px;
         border-style: solid;
-        border-radius: 25px;
+        border-radius: 15px;
+        padding-left: 13px;
+        line-height: 25px;
+        min-height: 25px;
+        padding: 3px;
+        margin-right: 2%;
+        max-width: 250px;
+        min-width: 250px;
+    }
+    
+        #acc_pearl_pic{
+            border-style: solid;
+            border-radius: 25px;
+            max-width: 150px;
+            min-width: 150px;
+        }
+
+    #acc_yamaha{
+        float: left;
+        background-color: lightcoral;
+        color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 15px;
+        line-height: 25px;
+        min-height: 25px;
+        padding: 3px;
+        margin-right: 2%;
+        max-width: 250px;
+        min-width: 250px;
     }
 
-    #accyamaha{
+        #acc_yamaha_pic{
+            border-style: solid;
+            border-radius: 25px;
+        }
+
+    #acc_mapex{
+        float: left;
+        background-color: lightcoral;
+        color: black;
+        border-width: 2px;
         border-style: solid;
-        border-radius: 25px;
+        border-radius: 15px;
+        padding-left: 13px;
+        line-height: 25px;
+        min-height: 25px;
+        padding: 3px;
+        margin-right: 2%;
+        max-width: 250px;
+        min-width: 250px;
     }
+
+        #acc_mapex_pic{
+                border-style: solid;
+                border-radius: 25px;
+        }
+
+    #acc_dw{
+        float: left;
+        background-color: lightcoral;
+        color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 15px;
+        padding-left: 13px;
+        line-height: 25px;
+        min-height: 25px;
+        padding: 3px;
+        margin-right: 2%;
+        max-width: 250px;
+        min-width: 250px;
+    }
+    
+        #acc_dw_pic{
+                border-style: solid;
+                border-radius: 25px;
+        }
 
 #ele{
     background-color: brown;
