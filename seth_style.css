@@ -1,15 +1,17 @@
-html{
-    background-color: lightcoral;
+:root{
+    --clr-dark:#0f172a;
+    --clr-light:#f1f5f9;
+    --clr-accent:#e11d48;
 }
 
-*{
-    margin: 3px;
-    font-family: Arial, Helvetica, sans-serif;
+*,
+*::before,
+*::after{
     box-sizing: border-box;
 }
 
 #wrapper{
-    width: 95%;
+    width: 97%;
     margin: auto;
 }
 
@@ -19,8 +21,26 @@ html{
     content: "";
 }
 
+#nav{
+    background-color: whitesmoke;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+#background{
+    background-image:url();
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
 h1{
-    background-color: red;
+    background-color: lightsalmon;
     color: black;
     text-align: center;
     border-width: 2px;
@@ -31,98 +51,104 @@ h1{
 
 #acc{
     background-color: brown;
-    border-style: solid;
     border-radius: 15px;
-    border-width: 2px;
-    line-height: 25px;
-    min-height: 25px;
-    padding: 3px;
+    margin: 5 auto;
+    border: 3px solid var(--clr-dark);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
 }
 
     #acc_pearl{
-        float: left;
-        background-color: lightcoral;
-        color: black;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 15px;
-        padding-left: 13px;
-        line-height: 25px;
-        min-height: 25px;
-        padding: 3px;
-        margin-right: 2%;
-        max-width: 250px;
-        min-width: 250px;
+        background-color: #fb7185;
+        padding: 1em;
+        font-weight: 700;
+        color: var(--clr-dark);
+        text-align: center;
+        border: 3px solid var(--clr-dark);
+        border-radius: 10px;
     }
     
         #acc_pearl_pic{
+            float: left;
             border-style: solid;
             border-radius: 25px;
             max-width: 150px;
             min-width: 150px;
         }
 
+            #acc_pearl_lpd{
+                float: left;
+            }
+
     #acc_yamaha{
-        float: left;
-        background-color: lightcoral;
-        color: black;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 15px;
-        line-height: 25px;
-        min-height: 25px;
-        padding: 3px;
-        margin-right: 2%;
-        max-width: 250px;
-        min-width: 250px;
+        background-color: #fb7185;
+        padding: 1em;
+        font-weight: 700;
+        color: var(--clr-dark);
+        text-align: center;
+        border: 3px solid var(--clr-dark);
+        border-radius: 10px;
     }
 
         #acc_yamaha_pic{
+            float: left;
             border-style: solid;
             border-radius: 25px;
+            max-width: 150px;
+            min-width: 150px;
         }
 
+            #acc_yamaha_lpd{
+                float: left;
+            }
+
     #acc_mapex{
-        float: left;
-        background-color: lightcoral;
-        color: black;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 15px;
-        padding-left: 13px;
-        line-height: 25px;
-        min-height: 25px;
-        padding: 3px;
-        margin-right: 2%;
-        max-width: 250px;
-        min-width: 250px;
+        background-color: #fb7185;
+        padding: 1em;
+        font-weight: 700;
+        color: var(--clr-dark);
+        text-align: center;
+        border: 3px solid var(--clr-dark);
+        border-radius: 10px;
     }
 
         #acc_mapex_pic{
-                border-style: solid;
-                border-radius: 25px;
+            float: left;
+            border-style: solid;
+            border-radius: 25px;
+            max-width: 150px;
+            min-width: 150px;
         }
 
+            #acc_mapex_lpd{
+                float: left;
+            }
+
     #acc_dw{
-        float: left;
-        background-color: lightcoral;
-        color: black;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 15px;
-        padding-left: 13px;
-        line-height: 25px;
-        min-height: 25px;
-        padding: 3px;
-        margin-right: 2%;
-        max-width: 250px;
-        min-width: 250px;
+        background-color: #fb7185;
+        padding: 1em;
+        font-weight: 700;
+        color: var(--clr-dark);
+        text-align: center;
+        border: 3px solid var(--clr-dark);
+        border-radius: 10px;
     }
     
         #acc_dw_pic{
-                border-style: solid;
-                border-radius: 25px;
+            float: left;
+            border-style: solid;
+            border-radius: 25px;
+            max-width: 150px;
+            min-width: 150px;
         }
+
+            #acc_dw_lpd{
+                float: left;
+            }
 
 #ele{
     background-color: brown;
