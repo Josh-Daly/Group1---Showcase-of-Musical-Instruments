@@ -52,7 +52,6 @@ h1{
 #acc{
     background-color: brown;
     border-radius: 15px;
-    margin: 5 auto;
     border: 3px solid var(--clr-dark);
     display: flex;
     flex-direction: row;
@@ -63,17 +62,19 @@ h1{
 }
 
     #acc_pearl{
+        display: flex;
+        flex-direction: row;
+        width: 350px;
         background-color: #fb7185;
-        padding: 1em;
-        font-weight: 700;
+        font-weight: 600;
         color: var(--clr-dark);
-        text-align: center;
         border: 3px solid var(--clr-dark);
         border-radius: 10px;
+        padding-left: 10px;
     }
     
         #acc_pearl_pic{
-            float: left;
+            display: flex;
             border-style: solid;
             border-radius: 25px;
             max-width: 150px;
@@ -81,17 +82,19 @@ h1{
         }
 
             #acc_pearl_lpd{
-                float: left;
+                margin-top: 60px;
             }
 
     #acc_yamaha{
+        display: flex;
+        flex-direction: row;
+        width: 350px;
         background-color: #fb7185;
-        padding: 1em;
-        font-weight: 700;
+        font-weight: 600;
         color: var(--clr-dark);
-        text-align: center;
         border: 3px solid var(--clr-dark);
         border-radius: 10px;
+        padding-left: 10px;
     }
 
         #acc_yamaha_pic{
@@ -107,13 +110,15 @@ h1{
             }
 
     #acc_mapex{
+        display: flex;
+        flex-direction: row;
+        width: 350px;
         background-color: #fb7185;
-        padding: 1em;
-        font-weight: 700;
+        font-weight: 600;
         color: var(--clr-dark);
-        text-align: center;
         border: 3px solid var(--clr-dark);
         border-radius: 10px;
+        padding-left: 10px;
     }
 
         #acc_mapex_pic{
@@ -129,13 +134,15 @@ h1{
             }
 
     #acc_dw{
+        display: flex;
+        flex-direction: row;
+        width: 350px;
         background-color: #fb7185;
-        padding: 1em;
-        font-weight: 700;
+        font-weight: 600;
         color: var(--clr-dark);
-        text-align: center;
         border: 3px solid var(--clr-dark);
         border-radius: 10px;
+        padding-left: 10px;
     }
     
         #acc_dw_pic{
