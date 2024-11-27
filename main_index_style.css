@@ -1,3 +1,19 @@
+html{
+    background-color: white;
+}
+.floatRight{
+    float:right;
+    padding-right: 30px;
+}
+
+.section{
+    width:90%;
+    border-width: 4px;
+    border-style:solid;
+    border-color:black;
+    background: linear-gradient(90deg, gold 50%, white 50%)
+    
+}
 :root{
     --clr-dark:#0f172a;
     --clr-light:#ffffff;
