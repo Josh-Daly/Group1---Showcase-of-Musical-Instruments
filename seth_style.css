@@ -28,6 +28,9 @@ button{
     line-height: 75px;
     display: flex;
     background-color: var(--clr-head);
+    position: sticky;
+    top:0;
+    z-index: 1;
 }
 
 a:link, a:visited {
@@ -82,11 +85,13 @@ a:link, a:visited {
     color: #0f172a;
     padding: 5px;
     text-decoration: none;
+    background-color: var(--clr-head);
+    font-weight: bold;
 }
 
 .dropdown-content a:hover{
     color: black;
-    background-color: #850000;
+    background-color: var(--clr-accent);
 }
 
 .container{
@@ -134,7 +139,7 @@ a:link, a:visited {
     color: var(--clr-light);
     background-color: var(--clr-accent);
     border: 3px solid var(--clr-dark);
-    width: 300px;
+    width: 330px;
     height: 475px;
 }
 
@@ -152,4 +157,5 @@ h3{
     border-style: solid;
     border-radius: 30px;
     padding: 3px;
+    font-size: large;
 }
