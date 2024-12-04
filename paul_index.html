@@ -6,23 +6,27 @@
     <link rel="icon" type="image" href="paulPics/paulFavIcon.png">
 </head>
 <body>
+
     <h2> Acoustic Guitars - Info, Products on Sale, and Useful Resources </h2>
 
-    <table class="navTable">
-        <tr>
-            <td size="10%">
-                <ul>
-                    <li><a href="default.asp">Home</a></li>
-                    <li><a href="news.asp">News</a></li>
-                    <li><a href="contact.asp">Contact</a></li>
-                    <li><a href="about.asp">About</a></li>
-                </ul>
-            </td>
-            <td size="80%" style="text-align: center;">
-                <p> Guitars are awesome, info and stuff here </p>
-            </td>
-        </tr>
-    </table>
+
+    <div style="padding-top: 200px;">
+        <table class="navTable">
+            <tr>
+                <td size="10%">
+                    <ul>
+                        <li><a href="default.asp">Home</a></li>
+                        <li><a href="news.asp">News</a></li>
+                        <li><a href="contact.asp">Contact</a></li>
+                        <li><a href="about.asp">About</a></li>
+                    </ul>
+                </td>
+                <td size="80%" style="text-align: center;">
+                    <p> Guitars are awesome, info and stuff here </p>
+                </td>
+            </tr>
+        </table>
+    </div>
 
 
 <!-- Guitars, Price and Info -->
@@ -161,8 +165,21 @@
 <br> <!-- Get rid of pls -->
 <table border="5" width="100%">
     <tr>
-        <td style="text-align: center;">
-            <textarea rows="3" cols="24" style="background-color: white; color: black"> Your comment here. </textarea>
+        <td style="float:left">
+            <textarea rows="6" cols="24" style="background-color: white; color: black"> Your comment here. </textarea>
+        </td>
+        <td style="float:left">
+            <input id="nName" type="text" name="fName" value="Username: " size="8">
+            <br>
+            <input id="country" type="text" name="fName" value="Country: " size="8">
+            <br>
+            <select id="foodDish" name="favInst" size="1">
+                <option value="main" selected> Favorite Instrument:  </option>
+                <option value="guitar"> Guitar </option>
+                <option value="piano"> Piano </option>
+                <option value="drums"> Drums </option>
+            </select>
+            <br>
         </td>
     </tr>
     <tr>
