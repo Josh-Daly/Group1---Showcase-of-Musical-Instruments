@@ -11,8 +11,8 @@
     box-sizing: border-box;
 }
 
-button{
-    background-color: #850000;
+#nav_btn{
+    background-color: var(--clr-head);
     border: 3px solid var(--clr-dark);
 }
 
@@ -34,11 +34,13 @@ button{
 }
 
 a:link, a:visited {
-    color: white;
+    color: black;
+    text-decoration: none;
   }
   
   a:hover, a:active {
-    color: #850000;
+    color: white;
+    text-decoration: none;
   }
 
 #heading{
@@ -119,21 +121,6 @@ a:link, a:visited {
     border: 3px solid var(--clr-dark);
 }
 
-.bot_bar{
-    border: 3px solid var(--clr-dark);
-    height: 75px;
-    line-height: 75px;
-    display: flex;
-    background-color: var(--clr-shad);
-}
-
-#quck{
-    position: relative;
-    top: -35%;
-    left: 0%;
-    margin-left: 10px;
-}
-
 #box{
     margin: 10px;
     color: var(--clr-light);
@@ -176,4 +163,92 @@ h3{
     border-radius: 30px;
     padding: 3px;
     font-size: large;
+}
+
+.bot_bar{
+    border: 3px solid var(--clr-dark);
+    background-color: #823c57;
+    height: auto;
+    margin-top: 25px;
+}
+
+.quick_order{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-weight: 800;
+    align-content: space-evenly;
+    text-align: justify;
+}
+
+#quick{
+    margin-left: 20px;
+}
+
+.btn{
+    border: 3px solid;
+    border-radius: 50px;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--clr-shad);
+    height: 75px;
+    width: 175px;
+    margin-bottom: 50px;
+}
+
+.btn::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #ff001159 0%, #eb347a 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.btn:hover::before{
+    width: 13em;
+    height: 8em;
+}
+
+.quick_list{
+    border: 3px solid;
+    border-radius: 50px;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--clr-shad);
+    width: 250px;
+    height: 175px;
+    padding-left: 25px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.quick_list::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #ff001159 0%, #eb347a 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.quick_list:hover::before{
+    width: 16em;
+    height: 15em;
 }
