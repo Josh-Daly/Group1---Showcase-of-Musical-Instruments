@@ -39,6 +39,7 @@ html{
     height: 60px;
     position: sticky;
     text-shadow: var(--clr-shad);
+    text-align: center;
 }
 
 #nav{
@@ -95,4 +96,5 @@ html{
     width: 60%;
     height: 175px;
     text-shadow: var(--clr-shad);
+    border-radius: 150px;
 }
