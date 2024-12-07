@@ -7,18 +7,19 @@
 </head>
 <body>
 
+<div>
     <h2> Acoustic Guitars - Info, Products on Sale, and Useful Resources </h2>
+</div>
 
-
-    <div style="padding-top: 200px;">
+    <div style="margin-top: 40px;">
         <table class="navTable">
             <tr>
                 <td size="10%">
                     <ul>
-                        <li><a href="default.asp">Home</a></li>
-                        <li><a href="news.asp">News</a></li>
-                        <li><a href="contact.asp">Contact</a></li>
-                        <li><a href="about.asp">About</a></li>
+                        <li><a href="default.asp">Top of Page</a></li>
+                        <li><a href="news.asp">Products</a></li>
+                        <li><a href="contact.asp">Comments</a></li>
+                        <li><a href="about.asp">Links</a></li>
                     </ul>
                 </td>
                 <td size="80%" style="text-align: center;">
@@ -154,42 +155,37 @@
 
 
 
-
-
-
-
-
-
 <!-- Fake Comment Section -->
 
-<br> <!-- Get rid of pls -->
-<table border="5" width="100%">
-    <tr>
-        <td style="float:left">
-            <textarea rows="6" cols="24" style="background-color: white; color: black"> Your comment here. </textarea>
-        </td>
-        <td style="float:left">
-            <input id="nName" type="text" name="fName" value="Username: " size="8">
-            <br>
-            <input id="country" type="text" name="fName" value="Country: " size="8">
-            <br>
-            <select id="foodDish" name="favInst" size="1">
-                <option value="main" selected> Favorite Instrument:  </option>
-                <option value="guitar"> Guitar </option>
-                <option value="piano"> Piano </option>
-                <option value="drums"> Drums </option>
-            </select>
-            <br>
-        </td>
-    </tr>
-    <tr>
+<div style="margin-top: 5%;" id="comment">
+    <table border="5" width="100%">
+        <tr>
+            <td style="float:left">
+                <textarea rows="6" cols="24" placeholder="Your comment here..."></textarea>
+            </td>
+            <td style="float:left">
+                <input id="nName" type="text" name="fName" placeholder="Username: " size="8">
+                <br>
+                <input id="country" type="text" name="fName" placeholder="Country: " size="8">
+                <br>
+                <select id="foodDish" name="favInst" size="1">
+                    <option value="main" selected> Favorite Instrument:  </option>
+                    <option value="guitar"> Guitar </option>
+                    <option value="piano"> Piano </option>
+                    <option value="drums"> Drums </option>
+                </select>
+                <br>
+                <button onclick="makeComment()"> Post Comment </button>
+                <br>
+            </td>
+        </tr>
+        <tr>
 
-    </tr>
-</table>
-
-
-
+        </tr>
+    </table>
+</div>
 
     <p> &copy Created by Paul Daly, 2024 </p>
+    <script src="paul_index.js"></script>
 </body>
 </html>

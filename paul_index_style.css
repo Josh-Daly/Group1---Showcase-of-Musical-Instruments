@@ -4,9 +4,9 @@ html{
 
 h2{
     border: 5px solid darkgoldenrod;
-    width: 95%;
-    padding-right: 5%;
-    padding-left: 5%;
+    width: 75%;
+    margin-right: 5%;
+    margin-left: 5%;
     padding: 20px;
     text-align: center;
     color: lightgoldenrodyellow;
