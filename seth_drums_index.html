@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="seth_style.css">
     <link rel="icon" type="image" href="pic/fav/drum.jpg">
+    <script src="seth_script.js"></script>
     <title>Drums</title>
 </head>
 <body style="background-color: lightslategray;">
@@ -27,6 +28,15 @@
         <div id="heading">
             <h1><u>Drums</u></h1>
         </div>
+
+        <div>
+            <audio id="audio">
+                <source src="audio/sting.mp3" type="audio/mpeg">
+            </audio>
+            
+            <button onclick="playDrumsAudio()" type="button" id="audio_btn">Sample</button>
+        </div>
+        
     </div>
 
 <section id="acc">
