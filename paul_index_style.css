@@ -18,6 +18,19 @@ h2{
     position: fixed;
 }
 
+.navBar{
+    position: fixed;
+
+}
+
+.desc{
+    padding-top: 200px;
+}
+
+.descContin{
+    border: 1px solid black;
+}
+
 textarea{
     text-align: center;
 }
