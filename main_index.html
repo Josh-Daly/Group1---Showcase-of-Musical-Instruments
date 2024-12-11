@@ -15,29 +15,50 @@
     <p class="section"> Test <br> Test <br> Test <br> Test <br> </p>
     <p class="section"> Test <br> Test <br> Test <br> Test <br> </p>
     
+
+<!--Heading and nav bar-->
     <div class="heading">
+            <div>
+                <img src="mainPagePics/musicNotes.png" id="show_img1" width="50px" height="50px">
+            </div>
         <h1>Showcase</h1>
-            <div id="head_pic">
-                <img src="">
+            <div>
+                <img src="mainPagePics/musicNotes.png" id="show_img2" width="50px" height="50px">
             </div>
     </div>
 
-    <div id="nav" class="dropdown">
-        <span>Nav Bar</span>
-            <div class="dropdown-content">
-                <a href="drums"></a>
-                <a href="Guitar"></a>
-                <a href="Extras"></a>
-            </div>
+    <div class="under_heading">
+        <div id="nav" class="dropdown">
+            <span>Navigation</span>
+                <div class="dropdown-content">
+                    <a href="paul_index.html">Guitar</a>
+                    <a href="seth_index.html">Drums</a>
+                    <a href="Hardware">Hardware</a>
+                </div>
+        </div>
+
+<!--Search bar-->
+        <div>
+            <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search">
+
+            <ul id="search_url">
+                <li><a href="#acc">Acoustic Drums</a></li>
+                <li><a href="#ele">Electric Drums</a></li>
+                <li><a href="#hyb">Hybrid Drums</a></li>
+            </ul>
+        </div>
     </div>
 
+<!--Boxes with links to our pages-->
     <div class="container">
-        <div id="item"><h1>Guitar</h1></div>
+        <div id="item">
+            <h1>Guitar</h1></div>
         <div id="item">
             <h1>Drum</h1>
-                <img src="pic/seth_index/drums.jpg">
+                <img src="pic/seth_index/drums.jpg" id="box_imgs" width="300px" height="225px">
         </div>
-        <div id="item"><h1>Extra</h1></div>
+        <div id="item">
+            <h1>Hardware</h1></div>
     </div>
   
   
