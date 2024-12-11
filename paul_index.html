@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="home"></div>
-    <div style="position:fixed;width:100%;height:1000px">
+    <div style="position:fixed;width:100%;">
         <h2> Acoustic Guitars - Info, Products on Sale, and Useful Resources </h2>
         <div class="navBar">
             <ul>
@@ -150,16 +150,7 @@
 
 
     <img src="paulPics/classical-guitar.png" height="300" width="200">
-    <br>
-    <img src="paulPics/classical-guitar.png" height="300" width="200">
-    <br>
-    <img src="paulPics/classical-guitar.png" height="300" width="200">
-    <br>
-    <img src="paulPics/classical-guitar.png" height="300" width="200">
-    <br>
-    <img src="paulPics/classical-guitar.png" height="300" width="200">
-    <br>
-
+    
 
 
     <!-- Fake Comment Section -->
@@ -168,18 +159,18 @@
         <table border="5" width="100%">
             <tr>
                 <td style="float:left">
-                    <textarea rows="6" cols="24" placeholder="Your comment here..."></textarea>
+                    <textarea id="commentText" rows="6" cols="60" placeholder="Your comment here..."></textarea>
                 </td>
                 <td style="float:left">
-                    <input id="nName" type="text" name="fName" placeholder="Username: " size="8">
+                    <input id="name" type="text" name="name" placeholder="Username: " size="8">
                     <br>
-                    <input id="country" type="text" name="fName" placeholder="Country: " size="8">
+                    <input id="country" type="text" name="country" placeholder="Country: " size="8">
                     <br>
-                    <select id="foodDish" name="favInst" size="1">
-                        <option value="main" selected> Favorite Instrument:  </option>
-                        <option value="guitar"> Guitar </option>
-                        <option value="piano"> Piano </option>
-                        <option value="drums"> Drums </option>
+                    <select id="instrument" name="favInst" size="1">
+                        <option value="" selected> Favorite Instrument:  </option>
+                        <option value="Guitar"> Guitar </option>
+                        <option value="Piano"> Piano </option>
+                        <option value="Drums"> Drums </option>
                     </select>
                     <br>
                     <button onclick="makeComment()"> Post Comment </button>
@@ -191,7 +182,23 @@
             </tr>
         </table>
     </div>
-    <p id="contact"> &copy Created by <a href="mailto:g00470372@atu.ie"> Paul Daly</a> , 2024 </p>
-    <script src="paul_index.js"></script>
+
+
+    <div id="commentUpdate">
+        <table>
+            <tr>
+                <td style="border:1px solid black;width:200px">
+                    <textarea id="commentText" rows="6" cols="60" placeholder="Your comment here..."></textarea>
+                </td>
+                <td>
+                    <p> Username <br> Country <br> Instrument </p>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <br>
+    <p id="contact" class="footer"> &copy Created by <a href="mailto:g00470372@atu.ie"> Paul Daly</a> , 2024 </p>
+    <script src="paul_index.js"> </script>
 </body>
 </html>
