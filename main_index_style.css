@@ -142,6 +142,15 @@ a:link, a:visited {
     transform: scaleX(-1);
 }
 
+/* Paul here, not sure if the page had images that changed on hover before, but this adds it back */
+img{
+    transition: .2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
 #search{
     position: relative;
     font-size: 50px;

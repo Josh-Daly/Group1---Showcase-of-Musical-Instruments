@@ -25,6 +25,19 @@ h2{
     margin-top: 0%;
 }
 
+#imgSmBorder{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+tr img{
+    transition: .2s;
+}
+
+tr img:hover{
+    transform: scale(1.1);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -72,6 +85,17 @@ table{
 .products td{
     border:1px solid black;
 }
+
+.suggestion{
+    border: 1px solid black;
+    margin-top:1%;
+    text-align: center;
+}
+
+mark {
+    background-color: lightgreen;
+    color: black;
+  }
 
 .footer{
     background-color: rgb(160, 136, 31);
