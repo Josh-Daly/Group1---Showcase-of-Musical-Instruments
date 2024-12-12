@@ -53,7 +53,7 @@ html{
     height: 25px;
     position: sticky;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .under_heading{
@@ -142,26 +142,38 @@ a:link, a:visited {
 }
 
 #search{
-    background-color: gold;
-    width: 150px;
-    font-size: 16px;
+    position: relative;
+    font-size: 50px;
+    padding: 10px;
+    border: 3px solid black;
+    top: 5px;
+    width: 75%;
+    margin-left: 10%;
+}
+  
+#icon{
+    width: 35px;
+    height: 35px;
     margin-top: 5px;
 }
 
-#search_url{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+#search_url {
+    position: relative;
+    padding: 10px;
+    list-style: none;
+    background-color: transparent;
+    margin-left: 10%;
 }
-
-#search_url li a{
-    border: none;
+  
+#search_url li a {
+    padding: 10px;
     text-decoration: none;
-    font-size: 18px;
-    color: #0f172a;
+    color: black;
     display: block;
+    font-size: 18px;
+    width: 75%;
 }
-
-#search_url li a:hover:not(.header){
-    background-color: #ffae00;
+  
+#search_url li a:hover:not(.header) {
+    background-color: yellow; 
 }

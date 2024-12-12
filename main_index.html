@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main_index_style.css">
+        <script src="main_script.js"></script>
         <title>Group Project</title>
     </head>
   <body>
@@ -21,7 +22,7 @@
             <div>
                 <img src="mainPagePics/musicNotes.png" id="show_img1" width="50px" height="50px">
             </div>
-        <h1>Showcase</h1>
+        <h1>Showcase of Musical Instruments</h1>
             <div>
                 <img src="mainPagePics/musicNotes.png" id="show_img2" width="50px" height="50px">
             </div>
@@ -38,16 +39,11 @@
         </div>
 
 <!--Search bar-->
-        <div>
-            <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search">
-
-            <ul id="search_url">
-                <li><a href="#acc">Acoustic Drums</a></li>
-                <li><a href="#ele">Electric Drums</a></li>
-                <li><a href="#hyb">Hybrid Drums</a></li>
-            </ul>
+        <div id="search_btn" onclick="openSearchBar()">
+        <a href="main_index_search.html" target="_self">
+        <img src="mainPagePics/search.png" id="icon">
+        </a>
         </div>
-    </div>
 
 <!--Boxes with links to our pages-->
     <div class="container">
