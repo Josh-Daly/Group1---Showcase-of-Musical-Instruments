@@ -26,3 +26,10 @@ function closeSearchBar()
 {
     document.getElementById("close_btn").style.display="none";
 }
+
+function credits()
+{
+    window.alert("Guitar by Paul");
+    window.alert("Drums By Seth");
+    window.alert("Hardware By Daire");
+}

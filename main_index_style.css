@@ -128,6 +128,7 @@ a:link, a:visited {
     margin-left: 25px;
     border: 3px solid black;
     border-radius: 25px;
+    margin-bottom: 18px;
 }
 
 #show_img1{
@@ -176,4 +177,35 @@ a:link, a:visited {
   
 #search_url li a:hover:not(.header) {
     background-color: yellow; 
+}
+
+#open_page{
+    font-size: xx-large;
+}
+
+.bottom{
+    border: 3px solid black;
+    width: 100%;
+    background-color: gold;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#item1{
+    margin-top: 18px;
+    border-radius: 10px;
+    border: solid 3px black;
+    font-size: 18px;
+    background-color: goldenrod;
+}
+
+#item2{
+    margin-top: 18px;
+    border-radius: 10px;
+    border: solid 3px black;
+    font-size: 18px;
+    background-color: goldenrod;
+    cursor: pointer;
 }
