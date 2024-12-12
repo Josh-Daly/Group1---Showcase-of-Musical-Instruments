@@ -86,6 +86,17 @@ table{
     border:1px solid black;
 }
 
+.suggestion{
+    border: 1px solid black;
+    margin-top:1%;
+    text-align: center;
+}
+
+mark {
+    background-color: lightgreen;
+    color: black;
+  }
+
 .footer{
     background-color: rgb(160, 136, 31);
     margin-top: 5px;
