@@ -25,6 +25,19 @@ h2{
     margin-top: 0%;
 }
 
+#imgSmBorder{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+tr img{
+    transition: .2s;
+}
+
+tr img:hover{
+    transform: scale(1.1);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
