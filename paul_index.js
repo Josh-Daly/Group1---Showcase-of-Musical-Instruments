@@ -1,6 +1,35 @@
 document.getElementById("commentUpdate").style.display = "none";
 document.getElementById("suggested").style.display = "none";
 
+function randDiscount()
+{
+    var randVal = 1, discount;
+    randVal = Math.ceil(Math.random() * 3);
+    console.log("Test: Random val returned as" + " " + randVal);
+    if (randVal == 1)
+    {
+        discount = 5;
+    }
+    else if (randVal == 2)
+    {
+        discount = 15;
+    }
+    else
+    {
+        discount = 25;
+    }
+
+    console.log("Test: Random discount returned as" + " " + discount);
+    document.getElementById("disc").innerHTML = "<p> Code: AG123 for" + " " + discount + "% off!" + "</p>";
+}
+
+
+function closePopup()
+{
+    document.getElementById("popupDisc").innerHTML = " ";
+}
+
+
 function makeComment()
 {
     var name = document.getElementById("name").value;
