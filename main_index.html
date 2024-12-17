@@ -4,42 +4,71 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main_index_style.css">
+        <script src="main_script.js"></script>
         <title>Group Project</title>
     </head>
   <body>
 
-    <img class="floatRight" src="mainPagePics/musicNotes.png" width="50" height="50">
-    <h1 class="title"> Showcase of Musical Instruments </h1>
-
-    <p class="section"> Test <br> Test <br> Test <br> Test <br> </p>
-    <p class="section"> Test <br> Test <br> Test <br> Test <br> </p>
-    <p class="section"> Test <br> Test <br> Test <br> Test <br> </p>
-    
+<!--Heading and nav bar-->
     <div class="heading">
-        <h1>Showcase</h1>
-            <div id="head_pic">
-                <img src="">
+            <div>
+                <img src="mainPagePics/musicNotes.png" id="show_img1" width="50px" height="50px">
+            </div>
+        <h1>Showcase of Musical Instruments</h1>
+            <div>
+                <img src="mainPagePics/musicNotes.png" id="show_img2" width="50px" height="50px">
             </div>
     </div>
 
-    <div id="nav" class="dropdown">
-        <span>Nav Bar</span>
-            <div class="dropdown-content">
-                <a href="drums"></a>
-                <a href="Guitar"></a>
-                <a href="Extras"></a>
-            </div>
-    </div>
-
-    <div class="container">
-        <div id="item"><h1>Guitar</h1></div>
-        <div id="item">
-            <h1>Drum</h1>
-                <img src="pic/seth_index/drums.jpg">
+    <div class="under_heading">
+        <div id="nav" class="dropdown">
+            <span>Navigation</span>
+                <div class="dropdown-content">
+                    <a href="paul_index.html">Guitar</a>
+                    <a href="seth_index.html">Drums</a>
+                    <a href="Hardware">Hardware</a>
+                </div>
         </div>
-        <div id="item"><h1>Extra</h1></div>
+
+<!--Search bar-->
+        <div id="search_btn" onclick="openSearchBar()">
+        <a href="main_index_search.html" target="_self">
+        <img src="mainPagePics/search.png" id="icon">
+        </a>
+        </div>
+
+<!--Boxes with links to our pages-->
+    <div class="container">
+        <div id="item">
+            <h1>Drums</h1>
+
+                <img src="pic/seth_index/drums.jpg" id="box_imgs" width="300px" height="225px">
+                    <br>
+                <a href="seth_index.html" id="open_page">Open Drums Page</a>
+        </div>
+        <div id="item">
+            <h1>Guitar</h1>
+                <img src="paulPics/ortegaClassical.png" id="box_imgs" width="300px" height="225px">
+                    <br>
+                <a href="paul_index.html" id="open_page">Open Guitars Page</a>
+        </div>
+        <div id="item">
+            <h1>Hardware</h1>
+                <img src="" id="box_imgs" width="300px" height="225px">
+                    <br>
+                <a href="" id="open_page">Open Hardware Page</a>
+        </div>
     </div>
-  
-  
+
+<!--Bottom of the page-->
+    <div class="bottom">
+        <div>
+            <h3 id="item1">&copy; <a href="mailto:G00467621@atu.ie">Seth</a> : <a href="mailto:G00470372@atu.ie">Paul</a> : <a href="mailto:G00467982@atu.ie">Daire</a></h3>
+        </div>
+
+        <div>
+            <button onclick="credits()"type="button" id="item2">Credits</button>
+        </div>
+    </div>
 </body>
-</html>
+</html
