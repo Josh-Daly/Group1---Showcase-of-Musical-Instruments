@@ -122,7 +122,12 @@ table{
 mark {
     background-color: lightgreen;
     color: black;
-  }
+}
+
+.userButtons{
+    background-color: grey; 
+    color: whitesmoke;
+}
 
 .footer{
     background-color: rgb(160, 136, 31);

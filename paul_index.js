@@ -1,6 +1,7 @@
 document.getElementById("commentUpdate").style.display = "none";
 document.getElementById("suggested").style.display = "none";
 
+/* Function to give a value for a discount on button press in the pop up */
 function randDiscount()
 {
     var randVal = 1, discount;
@@ -23,12 +24,13 @@ function randDiscount()
     document.getElementById("disc").innerHTML = "<p> Code: AG123 for" + " " + discount + "% off!" + "</p>";
 }
 
-
+/* Button to close popup */
 function closePopup()
 {
     document.getElementById("popupDisc").innerHTML = " ";
 }
 
+/* Button to make comment based on values user has entered */
 
 function makeComment()
 {
@@ -44,6 +46,8 @@ function makeComment()
     document.getElementById("commInst").innerHTML = "<p> Favorite Instument:" + " " + instrument + "</p>";
     document.getElementById("commentUpdate").style.display = "block";
 }
+
+/* Similar to comment but executed differently */
 
 function makeSuggestion()
 {
