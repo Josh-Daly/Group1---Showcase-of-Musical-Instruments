@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="seth_style.css">
+    <link rel="icon" type="image" href="pic/fav/cymbols.jpg">
+    <script src="seth_script.js"></script>
+    <title>Drums</title>
+</head>
+<body style="background-color: lightslategray;">
+
+    <div class="top_bar">
+        <div class="dropdown" id="nav_pic">
+            <button id="nav_btn"><img src="pic/fav/nav_pic.png" height="25px" width="25px"></button>
+                    <h1 id="nav">Navigation</h1>
+                <div class="dropdown-content">
+                    <a rel="noopener" href="main_index.html">- Home -</a>
+                    <a rel="noopener" href="seth_index.html">• Drum Options •</a>
+                    <nav>
+                        <a href="#cra">= Crash Cymbols =</a>
+                        <a href="#rid">= Ride Cymbols =</a>
+                        <a href="#car">= Crash-Ride Cymbols =</a>
+                        <a href="#spl">= Splash Cymbols =</a>
+                        <a href="#hih">= Hi-Hat Cymbols =</a>
+                    </nav>
+                </div>
+        </div>
+
+        <div id="heading">
+            <h1><u>Cymbols</u></h1>
+        </div>
+
+        
+        <div>
+            <audio id="audio">
+                <source src="audio/crash.mp3" type="audio/mpeg">
+            </audio>
+            
+            <button onclick="playCymbolAudio()" type="button" id="audio_btn">Sample</button>
+        </div>
+    </div>
+
+<section id="cra">
+    <div class="location">
+        <h1>Crash Cymbols</h1>
+    </div>
+
+    <div class="container">
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-I-Family-17-Trash-Crash-Cymbal/39MB">
+                <h1><u>Zildjian - Thrash</u></h1>
+                    <img src="pic/seth_cymbols/crash_ziljian_thrash.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €159.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 17"<br>&emsp;- Material : Bronze
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/WHD-Low-Volume-18-Crash-Ride-Cymbal-Gold/527P">
+                <h1><u>WHD - Low Volume</u></h1>
+                    <img src="pic/seth_cymbols/crash_whd_low_volume.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €49.30<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 18"<br>&emsp;- Material : Brass 
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-I-Family-16-Crash-Cymbal/39JG">
+                <h1><u>Zildjian - Family</u></h1>
+                    <img src="pic/seth_cymbols/crash_ziljian_family.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €139.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 16"<br>&emsp;- Material : Bronze  
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-Planet-Z-16-Crash/39TP">
+                <h1><u>Zildjian - Planet Z</u></h1>
+                    <img src="pic/seth_cymbols/crash_ziljian_planetz.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €75.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 16"<br>&emsp;- Material : Brass 
+                </h3>
+        </div>
+</section> 
+
+<section id="rid">
+    <div class="location">
+        <h1>Ride Cymbols</h1>
+    </div>
+
+    <div class="container">
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-A-21-Sweet-Ride-Cymbal-Traditional-Finish/A2C">
+                <h1><u>Zildjian - Sweet</u></h1>
+                    <img src="pic/seth_cymbols/ride_ziljian_sweet.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €400.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 21"<br>&emsp;- Material : Brass 
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-Z-Custom-22-Ride/6CG8">
+                <h1><u>Zildjian - Custom</u></h1>
+                    <img src="pic/seth_cymbols/ride_ziljian_custom.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €467.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 22"<br>&emsp;- Material : Bronze  
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-Z-Custom-21-Mega-Bell-Ride/6CG7">
+                <h1><u>Zildjian - Z Custom</u></h1>
+                    <img src="pic/seth_cymbols/ride_ziljian_Zcustom.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €455.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 21"<br>&emsp;- Material : Bronze
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/WHD-Low-Volume-20-Ride-Cymbal/527Q">
+                <h1><u>WHD - Low Volume</u></h1>
+                    <img src="pic/seth_cymbols/ride_whd_low_volume.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €61.60<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 20"<br>&emsp;- Material : Nickle
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-S-Family-Dark-20-Ride-Cymbal/5Y27">
+                <h1><u>Zildjian - Dark</u></h1>
+                    <img src="pic/seth_cymbols/ride_ziljian_dark.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €270.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 20"<br>&emsp;- Material : Alloy
+                </h3>
+        </div> 
+</section>
+
+<section id="car">
+    <div class="location">
+        <h1>Crash-Ride Cymbols</h1>
+    </div>
+
+    <div class="container">
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-Planet-Z-18-Crash-Ride/39TS">
+                <h1><u>Zildjian - Planet Z</u></h1>
+                    <img src="pic/seth_cymbols/crashride_zildjian_planetz.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €117.10<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 18"<br>&emsp;- Material : Brass
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/WHD-Low-Volume-18-Crash-Ride-Cymbal-Gold/527P">
+                <h1><u>WHD - Low Volume</u></h1>
+                    <img src="pic/seth_cymbols/crashride_whd_low_volume.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €49.30<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 18"<br>&emsp;- Material : Brass
+                </h3>
+        </div>
+</section>
+
+<section id="spl">
+    <div class="location">
+        <h1>Splash Cymbols</h1>
+    </div>
+
+    <div class="container">
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Meinl-HCS-12-Splash-Cymbal/I5M">
+                <h1><u>Meinl Splash</u></h1>
+                    <img src="pic/seth_cymbols/splash_meinl.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €37.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 12"<br>&emsp;- Material : Brass
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Meinl-Classics-Custom-10-Dark-Splash/2JTR">
+                <h1><u>Meinl - Dark Splash</u></h1>
+                    <img src="pic/seth_cymbols/splash_meinl_dark.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €75.90<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 10"<br>&emsp;- Material : Bronze
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-K-Custom-8-Dark-Splash-Cymbal/I1L">
+                <h1><u>Zildjian - K Custom</u></h1>
+                    <img src="pic/seth_cymbols/splash_zildjian_kcustom.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €179.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 8"<br>&emsp;- Material : Brass
+                </h3>
+        </div>
+</section>
+
+<section id="hih">
+    <div class="location">
+        <h1>Hi-Hat Cymbols</h1>
+    </div>
+
+    <div class="container">
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Meinl-Classics-Custom-Dark-14-Hi-Hats/2JTD">
+                <h1><u>Meinl - Dark</u></h1>
+                    <img src="pic/seth_cymbols/hihat_meinl_dark.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €239.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 14"<br>&emsp;- Material : Bronze 
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-Planet-Z-14-Hi-Hats/39TN">
+                <h1><u>Zildjian - Planet Z</u></h1>
+                    <img src="pic/seth_cymbols/hihat_zildjian_planetz.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €119.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 14"<br>&emsp;- Material : Brass
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-S-Family-Dark-14-Hi-Hats/5Y23">
+                <h1><u>Zildjian - Dark</u></h1>
+                    <img src="pic/seth_cymbols/hihat_zildjian_dark.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €344.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 14"<br>&emsp;- Material : Bronze
+                </h3>
+        </div>
+
+        <div id="boxs">
+            <a href="https://www.gear4music.ie/Drums-and-Percussion/Zildjian-K-Custom-Special-Dry-14-Hi-Hats/1SYN">
+                <h1><u>ZIldjian - Dry</u></h1>
+                    <img src="pic/seth_cymbols/hihat_zildjian_dry.jpg" height="175px" width="175px" id="imgs">
+            </a>
+                <h3><br><br>&emsp;Price - €642.00<br>
+                    <br>&emsp;Description <br>&emsp;- Size : 14"<br>&emsp;- Material : Bronze
+                </h3>
+        </div>
+</section>
+
+    <div class="bot_bar">
+            <div id="quick">
+                <h1><u>Quick Tabs</u></h1>
+            </div>
+        
+        <div class="quick_order">
+            <div>
+                <button class="btn"><a rel="noopener" href="main_index.html"><h2>Home Page</h2></a></button>
+            </div>
+            
+            <div>
+                <button class="btn"><a rel="noopener" href="paul_index.html"><h2>Guitar Page</h2></a></button>
+            </div>
+
+            <div>
+                <button class="btn"><a rel="noopener" href="Daire_index.html"><h2>Hardware Page</h2></a></button>
+            </div>
+
+            <div>
+                <button class="btn"><a rel="noopener" href="seth_index.html"><h2>Drums Page</h2></a></button>
+            </div>
+        </div>
+
+        <div class="quick_order">
+            <div class="quick_list">
+                <a href="seth_drums_index.html"><h2>Drums</h2></a> 
+                    <ul>
+                        <li><a href="seth_drums_index.html#acc">Acoustic Drums</a></li>
+                        <li><a href="seth_drums_index.html#ele">Electric Drums</a></li>
+                        <li><a href="seth_drums_index.html#hyb">Hybrid Drums</a></li>
+                    </ul>
+            </div>
+        
+            <div class="quick_list">
+                <a href="seth_sticks_index.html"><h2>Sticks</h2></a> 
+                    <ul>
+                        <li><a href="seth_sticks_index.html#7a">7A Sticks</a></li>
+                        <li><a href="seth_sticks_index.html#5a">5A Sticks</a></li>
+                        <li><a href="seth_sticks_index.html#bru">Brushes</a></li>
+                        <li><a href="seth_sticks_index.html#mal">Mallets</a></li>
+                    </ul>
+            </div>
+       
+            <div class="quick_list">
+                <a href="seth_heads_index.html"><h2>Heads</h2></a> 
+                    <ul>
+                        <li><a href="seth_heads_index.html#8in">8 Inches</a></li>
+                        <li><a href="seth_heads_index.html#10in">10 Inches</a></li>
+                        <li><a href="seth_heads_index.html#12in">12 Inches</a></li>
+                        <li><a href="seth_heads_index.html#14in">14 Inches</a></li>
+                        <li><a href="seth_heads_index.html#16in">16 Inches</a></li>
+                    </ul>
+            </div>
+        
+            <div class="quick_list">
+                <a href="seth_cymbols_index.html"><h2>Cymbols</h2></a> 
+                    <ul>
+                        <li><a href="seth_cymbols_index.html#cra">Crash Cymbols</a></li>
+                        <li><a href="seth_cymbols_index.html#rid">Ride Cymbols</a></li>
+                        <li><a href="seth_cymbols_index.html#car">Crash-Ride Cymbols</a></li>
+                        <li><a href="seth_cymbols_index.html#spl">Splash Cymbols</a></li>
+                        <li><a href="seth_cymbols_index.html#hih">Hi-Hat Cymbols</a></li>
+                    </ul>
+            </div>
+    
+            <div class="quick_list">
+                <a href="seth_hardware_index.html"><h2>Drums Hardware</h2></a> 
+                    <ul>
+                        <li><a href="seth_hardware_index.html#sta">Cymbol Stands</a></li>
+                        <li><a href="seth_hardware_index.html#pek">Base Pedals</a></li>
+                        <li><a href="seth_hardware_index.html#peh">Hi-Hat Pedals</a></li>
+                        <li><a href="seth_hardware_index.html#coj">Cajon Drums</a></li>
+                    </ul>
+            </div> 
+        </div>
+   
+        <div class="quick_order">
+            <div class="copy_con">
+                <p>&emsp;&emsp;&emsp;&emsp;&copy;Seth Butler</p>     
+            </div>
+    
+            <div class="copy_con">
+                <p>&ensp;Contact us : <a href="mailto:G00467621@atu.ie">Seth</a> : <a href="mailto:G00470372@atu.ie">Paul</a> : <a href="mailto:G00467982@atu.ie">Daire</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

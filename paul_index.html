@@ -1,179 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Guitar Info and Products </title>
+    <title> Acoustic Guitars - Info and Products </title>
     <link rel="stylesheet" href="paul_index_style.css">
     <link rel="icon" type="image" href="paulPics/paulFavIcon.png">
 </head>
 <body>
-    <h2> Guitars - Info, Products on Sale, and Useful Resources </h2>
+    <div id="top"></div>
+    <div style="position:fixed;width:100%;">
+        <h2> Acoustic Guitars - Info, Products on Sale, and Useful Resources </h2>
+        <div class="navBar">
+            <ul>
+                <li><a href="#top">Top of Page</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#comment">Comments</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="main_index.html">Home Page</a></li>
+                <li><a href="seth_index.html">Drums</a></li>
+                <li><a href="Daire_index.html">Headphones/Mics</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="popupDisc" style="position:fixed;width:100%;">
+        <div class="popup">
+            <button onclick="closePopup()" class="closeButton"> X </button>
+            <p>
+                Welcome to our website! Please use the following code for a discount!
+            </p>
+            <br>
+            <button onclick="randDiscount()" class="discButton"> Coupon here! </button>
+            <br>
+            <br>
+            <br>
+            <p style="font-size: 8px; margin-top: 100px;">Terms and conditions apply </p>
+            <div id="disc"> </div>
+        </div>
+    </div>
+    
+    <!-- Nav Bar here, moves with title image -->
+    
 
-    <table width=100%>
+    <div class="desc">
+        <div class="descContin">
+            <!-- More here -->
+            <p> &nbsp Acoustic guitars are a fun and popular instrument. They don't need much setup and can be as complicated to play as the person playing wants! 
+                <br> &nbsp Here are some products and links to guitar and guitar accessories.
+            </p>
+        </div>
+    </div>
+
+    <!-- Guitars, Price and Info -->
+    <h3 id="products"> Recommended Guitars </h3>
+    <table class="products">
         <tr>
-            <td>
-                <ul>
-                    <li><a href="default.asp">Home</a></li>
-                    <li><a href="news.asp">News</a></li>
-                    <li><a href="contact.asp">Contact</a></li>
-                    <li><a href="about.asp">About</a></li>
-                  </ul>
+            <td width="30%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/tanglewood-discovery-dbtfpglh-acoustic-guitar/" target="_blank" title="Product Page">
+                    <img src="paulPics/tanglewoodDiscovery.png" id="imgSmBorder" height="250" width="200">
+                </a>
+            </td width="30%" >
+            <td width="30%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/ortega-30th-anniversary-acacia-wood-classical/" target="_blank" title="Product Page">
+                    <img src="paulPics/ortegaClassical.png" id="imgSmBorder" height="250" width="220">
+                </a>
             </td>
-            <td style="text-align: left;">
-                <p> Guitars are awesome, info and stuff here </p>
+            <td width="30%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/yamaha-f310-acoustic-guitar-natural/" target="_blank" title="Product Page">
+                    <img src="paulPics/yamahaNatural.png" id="imgSmBorder" height="250" width="220">
+                </a>
             </td>
         </tr>
-    </table>
-
-
-<!-- Guitars, Price and Info -->
-    <h3> Recommended Guitars </h3>
-    <table border="5" width="100%">
         <tr>
             <td width="30%">
-                Hello
+                Price: <b> €219.00 </b>
             </td width="30%">
             <td>
-                Stuff Here
+                Price: <b> €499.00 </b>
             </td>
             <td width="30%">
-                Pics Specifically
+                Price: <b> €179.00 </b>
             </td>
         </tr>
         <tr>
             <td width="30%">
-                Price:
+                <u> Tanglewood Discovery Acoustic Guitar </u>
             </td width="30%">
             <td>
-                Price:
+                <u> Ortega 30th Anniversary Acacia Wood Classical </u>
             </td>
             <td width="30%">
-                Price:
-            </td>
-        </tr>
-        <tr>
-            <td width="30%">
-                Info 1
-            </td width="30%">
-            <td>
-                Info 2
-            </td>
-            <td width="30%">
-                Info 3
+                <u> Yamaha F310 Acoustic Guitar, Natural </u>
             </td>
         </tr>
     </table>
 
     <h3> Recommended Strings </h3>
-    <table border="5" width="100%">
+    <table class="products">
         <tr>
-            <td width="30%">
-                Hello
-            </td width="30%">
-            <td>
-                Stuff Here
+            <td width="30%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/daddario-ej16-acoustic-phosphor-bronze-12-53/" target="_blank" title="Product Page">
+                    <img src="paulPics/daddarioStrings.png" id="imgSmBorder" height="250" width="200">
+                </a>
+            </td width="30%" >
+            <td width="30%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/ernie-ball-earthwood-phosphor-bronze-set-13-56/" target="_blank" title="Product Page">
+                    <img src="paulPics/earthwoodStrings.png" id="imgSmBorder" height="250" width="200">
+                </a>
             </td>
-            <td width="30%">
-                Pics Specifically
+            <td width="30%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/martin-authentic-sp-80-20-acoustic-string-set-12-54/" target="_blank" title="Product Page">
+                    <img src="paulPics/martinStrings.png" id="imgSmBorder" height="250" width="200">
+                </a>
             </td>
         </tr>
         <tr>
             <td width="30%">
-                Price:
+                Price: <b> €12.99 </b>
             </td width="30%">
             <td>
-                Price:
+                Price: <b> €11.99 </b>
             </td>
             <td width="30%">
-                Price:
+                Price: <b> €9.99 </b>
             </td>
         </tr>
         <tr>
             <td width="30%">
-                Info 1
+                <u> D'Addario Light Gauge (.012 - .053) </u>
             </td width="30%">
             <td>
-                Info 2
+                <u> Earthwood Medium Gauge (.013 - .056) </u>
             </td>
             <td width="30%">
-                Info 3
+                <u> Martin Bronze Light Gauge (.012 - .054) </u>
             </td>
         </tr>
     </table>
 
     <h3> Other Accessories </h3>
-    <table border="5" width="100%">
-        <tr>
-            <td width="25%">
-                Hello
-            </td width="25%">
-            <td>
-                Stuff Here
+    <table class="products">
+            <td width="25%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/ritter-evilard-rge1-dreadnought-acoustic-guitar-bag-sea-ground-black/" target="_blank" title="Product Page">
+                    <img src="paulPics/guitarBag.png" id="imgSmBorder" height="250" width="250">
+                </a>
             </td>
-            <td width="25%">
-                Pics Specifically
+            <td width="25%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/hercules-single-guitar-stand/" target="_blank" title="Product Page">
+                    <img src="paulPics/guitarStand.png" id="imgSmBorder" height="250" width="250">
+                </a>
             </td>
-            <td width="25%">
-                Pics Specifically
+            <td width="25%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/aroma-ukulele-capo-silver/" target="_blank" title="Product Page">
+                    <img src="paulPics/guitarCapo.png" id="imgSmBorder" height="250" width="350">
+                </a>
             </td>
-        </tr>
-        <tr>
-            <td width="25%">
-                Price:
-            </td width="25%">
-            <td>
-                Price:
-            </td>
-            <td width="25%">
-                Price:
-            </td>
-            <td width="25%">
-                Price:
+            <td width="25%" style="text-align: center;">
+                <a href="https://xmusic.ie/product/dunlop-variety-pvp101-light-medium-12-pack/" target="_blank" title="Product Page">
+                    <img src="paulPics/guitarPicks.png" id="imgSmBorder" height="250" width="250">
+                </a>
             </td>
         </tr>
         <tr>
             <td width="25%">
-                Info 1
+                Price: <b> €39.00 </b>
             </td width="25%">
             <td>
-                Info 2
+                Price: <b> €45.00 </b>
             </td>
             <td width="25%">
-                Info 3
+                Price: <b> €24.99 </b>
             </td>
             <td width="25%">
-                Info 3
+                Price: <b> €8.99 </b>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%">
+                <u> Ritter Dreadnought Acoustic Guitar Bag </u>
+            </td width="25%">
+            <td>
+                <u> Hercules Single Guitar Stand </u>
+            </td>
+            <td width="25%">
+                <u> Nashville Capo </u>
+            </td>
+            <td width="25%">
+                <u> Dunlop 12 Pack Guitar Picks </u>
             </td>
         </tr>
     </table>
 
+    <!-- Fake Comment Section -->
 
-    <img src="paulPics/classical-guitar.png" height="300" width="200">
+    <div style="margin-top: 5%;" id="comment">
+        <table border="" width="100%">
+            <tr>
+                <td style="float:left">
+                    <textarea spellcheck="false" id="commentText" rows="6" cols="60" placeholder="Your comment here..."></textarea>
+                </td>
+                <td style="float:left">
+                    <input id="name" type="text" name="name" placeholder="Username: " size="16">
+                    <br>
+                    <input id="country" type="text" name="country" placeholder="Country: " size="16">
+                    <br>
+                    <select id="instrument" name="favInst" size="1">
+                        <option value="" selected> Favorite Instrument:  </option>
+                        <option value="Guitar"> Guitar </option>
+                        <option value="Piano"> Piano </option>
+                        <option value="Drums"> Drums </option>
+                    </select>
+                    <br>
+                    <button onclick="makeComment()" class="userButtons"> Post Comment </button>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+    </div>
 
 
+    <div id="commentUpdate" style="margin-top: 2px;">
+        <table>
+            <tr>
+                <td style="border:1px solid black;width:200px">
+                    <textarea spellcheck="false" readonly id="commText" rows="6" cols="60" placeholder="Your comment here..."></textarea>
+                </td>
+                <td>
+                    <div id="commName"> Username </div>
+                    <div id="commCoun"> Country </div>
+                    <div id="commInst"> Instrument </div>
+                </td>
+            </tr>
+        </table>
+    </div>
 
+    <div id="suggestion" class="suggestion">
+        <textarea spellcheck="false" id="suggestText" rows="6" cols="60" placeholder="Leave any suggestions for the website here!"></textarea>
+        <br>
+        <button onclick="makeSuggestion()" class="userButtons"> Post Suggestion </button>
+        <br>
+    </div>
+    
+    <div id="suggested" class="suggestion">
+        <p> It didnt work, oof </p>
+    </div>
 
-
-
-
-
-
-<!-- Fake Comment Section -->
-
-<br> <!-- Get rid of pls -->
-<table border="5" width="100%">
-    <tr>
-        <td style="text-align: center;">
-            <textarea rows="3" cols="24" style="background-color: white; color: black"> Your comment here. </textarea>
-        </td>
-    </tr>
-    <tr>
-
-    </tr>
-</table>
-
-
-
-
-    <p style="color: lightblue; background-color: steelblue;"> &copy Created by Paul Daly, 2024 </p>
+    <br>
+    <p id="contact" class="footer"> &copy Created by <a href="mailto:g00470372@atu.ie"> Paul Daly</a> 2024, Products/Pictures/Info taken from <a href="https://xmusic.ie/"> XMusic</a>.  </p>
+    <script src="paul_index.js"> </script>
 </body>
 </html>

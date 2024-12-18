@@ -1,0 +1,220 @@
+html{
+    background-image: linear-gradient(to right, #ffc400f1 0%,#ffae 40%, #ffae00 60%, #ffc400f1 100%);
+}
+
+.floatRight{
+    float:right;
+    padding-right: 30px;
+}
+
+.section{
+    width:90%;
+    border-width: 4px;
+    border-style:solid;
+    border-color:black;
+    background: linear-gradient(90deg, gold 50%, white 50%)
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.heading{
+    color: black;
+    background-color: gold;
+    border: 3px solid black;
+    height: 60px;
+    position: sticky;
+    text-align: center;
+    line-height: 15px;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+
+#nav{
+    margin-top: 5px;
+    color: black;
+    background-color: gold;
+    border: 3px solid black;
+    width: 100px;
+    height: 25px;
+    position: sticky;
+    text-align: center;
+    font-size: 18px;
+}
+
+.under_heading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100px;
+    overflow: auto;
+    background-color: yellow;
+    border: 3px solid black;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    display: block;
+    background-color: white;
+    color: #0f172a;
+    padding: 5px;
+    text-decoration: none;
+    background-color: gold;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dropdown-content a:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-weight: 800;
+    gap: 100px;
+    align-content: space-around;
+    text-align: center;
+}
+
+#item{
+    margin: 10px;
+    color: black;
+    background-color: goldenrod;
+    border: 3px solid black;
+    width: 600px;
+    height: 400px;
+}
+
+#box_imgs{
+    margin-left: 25px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-bottom: 18px;
+}
+
+#show_img1{
+    mix-blend-mode: multiply;
+    border: none;    
+}
+
+#show_img2{
+    mix-blend-mode: multiply;
+    border: none;
+    transform: scaleX(-1);
+}
+
+/* Paul here, not sure if the page had images that changed on hover before, but this adds it back */
+img{
+    transition: .2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+#search{
+    position: relative;
+    font-size: 50px;
+    padding: 10px;
+    border: 3px solid black;
+    top: 5px;
+    width: 75%;
+    margin-left: 10%;
+}
+  
+#icon{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+#search_url {
+    position: relative;
+    padding: 10px;
+    list-style: none;
+    background-color: transparent;
+    margin-left: 10%;
+}
+  
+#search_url li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 18px;
+    width: 75%;
+}
+  
+#search_url li a:hover:not(.header) {
+    background-color: yellow; 
+}
+
+#open_page{
+    font-size: xx-large;
+}
+
+.bottom{
+    border: 3px solid black;
+    width: 100%;
+    background-color: gold;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#item1{
+    margin-top: 18px;
+    border-radius: 10px;
+    border: solid 3px black;
+    font-size: 18px;
+    background-color: goldenrod;
+}
+
+#item2{
+    margin-top: 18px;
+    border-radius: 10px;
+    border: solid 3px black;
+    font-size: 18px;
+    background-color: goldenrod;
+    cursor: pointer;
+}
