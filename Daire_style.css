@@ -1,0 +1,14 @@
+#title{
+    width:100%;
+    min-height: 50px;
+    background-color: rgb(138, 86, 10);
+    padding-left:40%;
+    line-height:50px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#backdrop{
+    background-color: rgb(152, 228, 238);
+}
